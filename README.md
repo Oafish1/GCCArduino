@@ -31,7 +31,7 @@ Finished product
 
 Just open the .ino file in the Arduino IDE and upload via serial.  Instructions for use are at the top of the .ino file.
 
-The arduino should work with a wii or gamecube. In order to get it working with pc you will likely need to download the firmware below and have the device in Wii U mode. The arduino must be powered through either the grey rumble cord, an alternative 5V power source, or the serial bus (micro USB).
+The arduino should work natively with a wii or gamecube. In order to get it working with pc you will likely need to download the firmware below and have the device in Wii U mode. The arduino must be powered through either the grey rumble cord, an alternative 5V power source, or the serial bus (micro USB).
 www.mayflash.com/File.asp?Id=106
 
 # References
