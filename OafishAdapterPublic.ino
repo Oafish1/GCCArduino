@@ -68,8 +68,8 @@ struct{bool u, d, l, r;}perf;
 struct{uint8_t l, r;}ls;
 int8_t ax, ay, cx, cy;
 float r, deg, cr, ref;
-uint8_t cyclesDB=4;    					//Number of buffer cycles for dbs +1 (default 3)
-uint8_t cyclesCDB=4;  					//Number of buffer cycles for dboocs +1 (default 3)
+uint8_t cyclesDB=3;    					//Number of buffer cycles for dbs +1 (default 3)
+uint8_t cyclesCDB=3;  					//Number of buffer cycles for dboocs +1 (default 3)
 struct{uint8_t DB:5, CDB:5;}cycleRef;
 uint16_t cyclesDBms=14; 				//ms buffer for dbs +1 (default 3)
 uint16_t cyclesCDBms=14;  				//ms buffer for dboocs +1 (default 3)
@@ -81,7 +81,7 @@ uint8_t index = 0;
 uint8_t perfAng = 18; //Do min of 18
 uint8_t zoneX = 0, zoneY = 0;
 uint8_t hzRatio = 2.666;
-uint64_t startTime = 0, standardTime = 3;
+uint64_t startTime = 0, standardTime = 4;
 
 float toSetX[] = {e__notch_x_value, se_notch_x_value, s__notch_x_value, sw_notch_x_value, w__notch_x_value, n__notch_x_value};
 float toSetY[] = {e__notch_y_value, se_notch_y_value, s__notch_y_value, sw_notch_y_value, w__notch_y_value, n__notch_y_value};
