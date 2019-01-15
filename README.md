@@ -34,6 +34,8 @@ Just open the .ino file in the Arduino IDE and upload via serial.  Instructions 
 The arduino should work natively with a wii or gamecube. In order to get it working with pc you will likely need to download the firmware below and have the device in Wii U mode. The arduino must be powered through either the grey rumble cord, an alternative 5V power source, or the serial bus (micro USB).
 www.mayflash.com/File.asp?Id=106
 
+At the bottom of the file you will find a time delay debugger. You can un-comment this if you have a different processor then modify standardTime at the top of the file until your character/cursor no longer runs right on its own in game. If your character/cursor does not run right, decrease the value. Otherwise, increase the value. The goal is to have standardTime be as low as possible while still being an integer.
+
 # References
 
 Code Base (v3): https://github.com/OtaK/GCCArduino
