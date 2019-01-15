@@ -308,12 +308,14 @@ void nocode(){
 void recalibrate(){
   if(cal)
   {
+    controller.read(); gcc = controller.getReport();
     susIn = true; 
     cal = gcc.y&&gcc.start&&!gcc.z;
     Serial.println("Recalibration");
     ini.ax = gcc.xAxis -128; ini.ay = gcc.yAxis -128;   
     ini.cx = gcc.cxAxis-128; ini.cy = gcc.cyAxis-128;
     ini.l  = gcc.left;       ini.r  = gcc.right;
+    calibration();
     if(!cal)
     {
       susIn = false;
