@@ -13,15 +13,19 @@ Junction Boxes (Case): https://www.amazon.com/gp/product/B07HMPWNLM/ref=ppx_yo_d
 
 Follow the Making the Module Reference under 'Refrences'. Use the modified wire diagram below instead of the one in the guide.
 
-![Adapter Wiring Diagram](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/ModifiedChart.png)
+Adapter Wiring Diagram
+![](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/ModifiedChart.png)
 
 Don't assume that your GCC extension wires match OEM! Guide is in the doc. I personally recommend the potentiometer method without plugging into the console.
 
-![Wire color diagram for extension cable - may vary](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/ExtenderWires.JPG)
+Wire color diagram for extension cable - may vary
+![](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/ExtenderWires.JPG)
 
-![Inside of the finished product](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/FinishedInside.JPG)
+Inside of the finished product
+![](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/FinishedInside.JPG)
 
-![Finished product](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/Finished.JPG)
+Finished product
+![](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/Finished.JPG)
 
 # Installation
 
