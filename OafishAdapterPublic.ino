@@ -13,6 +13,7 @@ Push the analog stick to the E, SE, S, SW, W, and N gates, pressing B at each ga
 You may press A at any time to cancel.
 
 D-Down			(.5 sec)	:	Enable/Disable all mods
+Analog stick readout will move up upon activation and down upon deactivation.
 
 
 Modifications done by Oafish
