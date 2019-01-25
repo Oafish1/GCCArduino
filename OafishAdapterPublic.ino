@@ -56,8 +56,8 @@ float se_notch_x_value = 0.7000;
 float se_notch_y_value = -0.7000;
 
 #include "Nintendo.h"
-CGamecubeController controller(3); //sets RX0 on arduino to read data from controller
-CGamecubeConsole console(4);       //sets TX1 on arduino to write data to console
+CGamecubeController controller(3); //Data in pin
+CGamecubeConsole console(4);       //Data out pin
 Gamecube_Report_t gcc;             //structure for controller state
 Gamecube_Data_t data;
 struct{int8_t ax, ay, cx, cy; uint8_t l, r;}ini;
