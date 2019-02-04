@@ -29,7 +29,7 @@ Finished product
 
 # Installation
 
-Just open the .ino file in the Arduino IDE and upload via serial.  This file will also work for an in-controller design.  Instructions for use are at the top of the .ino file.
+Just open the .ino file in the Arduino IDE and upload via serial.  This file will also work for an in-controller design.  Instructions for use are at the top of the .ino file.  Modifications to original inputs are also listed throughout the file.
 
 The arduino should work natively with a wii or gamecube. In order to get it working on pc with a Mayflash adapter you will likely need to download the firmware below and have the device in Wii U mode.  I recommend using native input for dolphin (Guide: https://dolphin-emu.org/docs/guides/how-use-official-gc-controller-adapter-wii-u/#Using_Zadig).  The arduino must be powered through either the grey rumble cord, an alternative 5V power source, or the serial bus (micro USB).
 www.mayflash.com/File.asp?Id=106
