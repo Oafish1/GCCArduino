@@ -38,7 +38,7 @@ At the bottom of the file you will find a time delay debugger. You can un-commen
 
 # References
 
-None of these links below are mine. These are the bases that I used in order to buile the adapter.
+None of these links below are mine. These are the bases that I used in order to build the adapter.
 
 Code Base (v3): https://github.com/OtaK/GCCArduino
 
