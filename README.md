@@ -13,7 +13,7 @@ Junction Boxes (Case): https://www.amazon.com/gp/product/B07HMPWNLM/ref=ppx_yo_d
 
 Follow the Making the Module Reference under 'Refrences'. Use the wire diagram below instead of the one in the guide. This is a modified version of the diagram within the guide.
 
-Adapter Wiring Diagram
+Adapter Wiring Diagram (The logic-level converter diagram isn't correct in the bottom-left, the one above it is)
 ![](https://raw.githubusercontent.com/Oafish1/GCCArduino/master/img/ModifiedChart.png)
 
 Don't assume that your GCC extension wires match OEM! Guide is in the doc. I personally recommend the potentiometer method without plugging into the console.
